@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teoria Musical App - Analisador</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Teoria Musical App</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Notas</a></li>
+                <li><a href="#">Escalas</a></li>
+                <li><a class="active" href="#">Acordes</a></li>
+                <li><a href="#">Analisador Musical</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="analyzer-section">
+            <h2>Analisador Musical</h2>
+            <p>Descubra escalas e acordes a partir das notas que você tocar.</p>
+
+            <div class="analyzer-card">
+                <h3>Analisar Notas</h3>
+
+                <div class="input-group">
+                    <label for="noteInput">Notas (separadas por vírgula, ex: C4,E4,G4):</label>
+                    <input type="text" id="noteInput" placeholder="Ex: C, E, G">
+                </div>
+
+                <div class="input-group">
+                    <label for="octaveInput">Oitava Padrão (para notas sem especificação):</label>
+                    <select id="octaveInput">
+                        <option value="3">3</option>
+                        <option value="4" selected>4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+
+                <div class="button-group">
+                    <button id="analyzeScalesBtn" class="primary-btn">Buscar Escalas</button>
+                    <button id="analyzeChordsBtn" class="secondary-btn">Identificar Acorde</button>
+                </div>
+
+                <div class="results-area">
+                    <h4>Resultados:</h4>
+                    <div id="scaleResults" class="result-box">
+                        <h5>Escalas Encontradas:</h5>
+                        <ul id="scaleList">
+                            <li>C Maior (C, D, E, F, G, A, B)</li>
+                            <li>G Melódica (G, A, Bb, C, D, E, F#)</li>
+                        </ul>
+                        <p id="noScaleResults" class="no-results" style="display: none;">Nenhuma escala encontrada com essas notas.</p>
+                    </div>
+
+                    <div id="chordResults" class="result-box">
+                        <h5>Acorde Identificado:</h5>
+                        <p id="identifiedChord">C Maior</p>
+                        <ul id="chordNotes">
+                            <li>C4</li>
+                            <li>E4</li>
+                            <li>G4</li>
+                        </ul>
+                        <p id="noChordResults" class="no-results" style="display: none;">Acorde não identificado.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Teoria Musical App. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
