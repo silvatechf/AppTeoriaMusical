@@ -38,10 +38,10 @@ Atualmente, o projeto conta com as seguintes funcionalidades:
 
 **Funcionalidades planejadas (Roadmap):**
 
-* [ ] Exercícios de identificação de escalas.
-* [ ] Seção sobre o Círculo de Quintas.
-* [ ] Quiz de teoria musical com pontuação.
-* [ ] Modo escuro para a interface.
+*  Exercícios de identificação de escalas.
+*  Seção sobre o Círculo de Quintas.
+*  Quiz de teoria musical com pontuação.
+*  Modo escuro para a interface.
 
 ---
 
@@ -58,8 +58,8 @@ Você pode testar a aplicação em funcionamento aqui:
 Aqui estão algumas imagens da aplicação em ação:
 
 <p align="center">
-  <img src="[URL_DA_SUA_IMAGEM_1.PNG]" width="400" alt="Screenshot 1">
-  <img src="[URL_DA_SUA_IMAGEM_2.PNG]" width="400" alt="Screenshot 2">
+  <img src="["C:\Users\fernando.sfelix\Documents\AppTeoriaMusical\img\imginicial.png.png"]" width="400" alt="Screenshot 1">
+ 
 </p>
 
 ---
