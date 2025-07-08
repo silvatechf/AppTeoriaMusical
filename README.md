@@ -58,7 +58,7 @@ Você pode testar a aplicação em funcionamento aqui:
 Aqui estão algumas imagens da aplicação em ação:
 
 <p align="center">
-  <img src="["C:\Users\fernando.sfelix\Documents\AppTeoriaMusical\img\imginicial.png.png"]" width="400" alt="Screenshot 1">
+  <img src="[(https://github.com/silvatechf/AppTeoriaMusical/blob/master/assets/imginicial.png)]" width="400" alt="Screenshot 1">
  
 </p>
 
