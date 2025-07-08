@@ -55,12 +55,11 @@ Você pode testar a aplicação em funcionamento aqui:
 
 ## 📸 Screenshots
 
+
 Aqui estão algumas imagens da aplicação em ação:
 
-<p align="center">
-  <img src="[(https://github.com/silvatechf/AppTeoriaMusical/blob/master/assets/imginicial.png)]" width="400" alt="Screenshot 1">
- 
-</p>
+![Imagem inicial](assets/imginicial.png)
+
 
 ---
 
